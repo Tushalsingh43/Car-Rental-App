@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".Dashboard">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/bottom_nav">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:padding="15dp"
+                android:src="@drawable/arrow" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:padding="15dp"
+                android:src="@drawable/search" />
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nunito"
+            android:padding="10dp"
+            android:text="Categories"
+            android:textAllCaps="true"
+            android:textColor="@color/colorSecondary"
+            android:textSize="30sp" />
+
+        <RelativeLayout
+            android:id="@+id/spo"
+            android:layout_width="379dp"
+            android:layout_height="190dp"
+            android:background="@drawable/backgrounforcategories"
+            android:backgroundTint="#8F8D8D">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="322dp"
+                android:layout_height="124dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="1dp"
+                android:layout_marginBottom="27dp"
+                app:srcCompat="@drawable/sport" />
+
+            <TextView
+                android:id="@+id/Sports"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="291dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginBottom="153dp"
+                android:fontFamily="@font/roboto_bold"
+                android:text="Sports"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="379dp"
+            android:layout_height="190dp"
+            android:layout_marginTop="20sp"
+            android:background="@drawable/backgrounforcategories"
+            android:backgroundTint="#122C45">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="155dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="51dp"
+                android:layout_marginBottom="11dp"
+                app:srcCompat="@drawable/suv" />
+
+            <TextView
+                android:id="@+id/SUV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="29dp"
+                android:layout_marginEnd="286dp"
+                android:layout_marginBottom="152dp"
+                android:fontFamily="@font/roboto_bold"
+                android:text="SUV"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="379dp"
+            android:layout_height="190dp"
+            android:layout_marginTop="20sp"
+            android:background="@drawable/backgrounforcategories"
+            android:backgroundTint="#424141">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="310dp"
+                android:layout_height="224dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="2dp"
+                android:layout_marginBottom="0dp"
+                app:srcCompat="@drawable/crossover" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="276dp"
+                android:layout_marginEnd="3dp"
+                android:layout_marginBottom="147dp"
+                android:fontFamily="@font/roboto_bold"
+                android:text="Crossover"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="379dp"
+            android:layout_height="190dp"
+            android:layout_marginTop="20sp"
+            android:background="@drawable/backgrounforcategories"
+            android:backgroundTint="#2B2828">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="368dp"
+                android:layout_height="190dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="22dp"
+                android:layout_marginBottom="-5dp"
+                app:srcCompat="@drawable/sedan" />
+
+            <TextView
+                android:id="@+id/sedan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="19dp"
+                android:layout_marginEnd="296dp"
+                android:layout_marginBottom="151dp"
+                android:fontFamily="@font/roboto_bold"
+                android:text="Sedan"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_nav"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:background="@color/statusBarColor"
+        app:itemIconTint="#ffffff"
+        app:itemTextColor="#fff"
+        app:menu="@menu/nav_items">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

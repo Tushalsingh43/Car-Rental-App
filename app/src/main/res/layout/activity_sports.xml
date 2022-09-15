@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".Sports">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:padding="15dp"
+                android:src="@drawable/arrow" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:padding="15dp"
+                android:src="@drawable/search" />
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nunito"
+            android:padding="10dp"
+            android:text="Choose"
+            android:textAllCaps="true"
+            android:textColor="@color/colorSecondary"
+            android:textSize="30sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nunito"
+            android:padding="5dp"
+            android:text="a Car"
+            android:textColor="@color/colorSecondary"
+            android:textSize="20sp" />
+
+        <RelativeLayout
+            android:id="@+id/BMW400"
+            android:layout_width="379dp"
+            android:layout_height="190dp"
+            android:background="@drawable/backgrounforcategories"
+            android:backgroundTint="#fff">
+
+            <ImageView
+                android:id="@+id/BMW"
+                android:layout_width="345dp"
+                android:layout_height="147dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="2dp"
+                android:layout_marginBottom="17dp"
+                app:srcCompat="@drawable/s1" />
+
+            <TextView
+                android:id="@+id/Sports1"
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="209dp"
+                android:layout_marginBottom="151dp"
+                android:fontFamily="@font/roboto_bold"
+                android:text="BMW 2 Series Gran"
+                android:textColor="#000"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/d1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginBottom="0dp"
+                android:background="#fff"
+                android:text="Details" />
+
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="-2dp"
+                android:background="@drawable/backgrounforcategories"
+                android:backgroundTint="#00BCD4"
+                android:fontFamily="@font/antic"
+                android:text="BOOK"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/Ferrari488"
+            android:layout_width="379dp"
+            android:layout_height="190dp"
+            android:layout_marginTop="15sp"
+            android:background="@drawable/backgrounforcategories"
+            android:backgroundTint="#fff">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="307dp"
+                android:layout_height="131dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="70dp"
+                android:layout_marginBottom="28dp"
+                app:srcCompat="@drawable/s2" />
+
+            <TextView
+                android:id="@+id/S2"
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="209dp"
+                android:layout_marginBottom="151dp"
+                android:fontFamily="@font/roboto_bold"
+                android:text="Ferrari 488"
+                android:textColor="#000"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/d2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginBottom="0dp"
+                android:background="#fff"
+                android:text="Details" />
+
+            <Button
+                android:id="@+id/b2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="-2dp"
+                android:background="@drawable/backgrounforcategories"
+                android:backgroundTint="#00BCD4"
+                android:fontFamily="@font/antic"
+                android:text="BOOK"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/skoda"
+            android:layout_width="379dp"
+            android:layout_height="190dp"
+            android:layout_marginTop="15sp"
+            android:background="@drawable/backgrounforcategories"
+            android:backgroundTint="#fff">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="345dp"
+                android:layout_height="147dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="2dp"
+                android:layout_marginBottom="17dp"
+                app:srcCompat="@drawable/s3" />
+
+            <TextView
+                android:id="@+id/Sports"
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="209dp"
+                android:layout_marginBottom="151dp"
+                android:fontFamily="@font/roboto_bold"
+                android:text="Skoda Octavia"
+                android:textColor="#000"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/d3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginBottom="0dp"
+                android:background="#fff"
+                android:text="Details" />
+
+            <Button
+                android:id="@+id/b3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="-2dp"
+                android:background="@drawable/backgrounforcategories"
+                android:backgroundTint="#00BCD4"
+                android:fontFamily="@font/antic"
+                android:text="BOOK"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/Mustang"
+            android:layout_width="379dp"
+            android:layout_height="190dp"
+            android:layout_marginTop="15sp"
+            android:background="@drawable/backgrounforcategories"
+            android:backgroundTint="#fff">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="345dp"
+                android:layout_height="147dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="2dp"
+                android:layout_marginBottom="17dp"
+                app:srcCompat="@drawable/mustang" />
+
+            <TextView
+                android:id="@+id/Sports4"
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="209dp"
+                android:layout_marginBottom="151dp"
+                android:fontFamily="@font/roboto_bold"
+                android:text="Ford Mustang"
+                android:textColor="#000"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/d4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginBottom="0dp"
+                android:background="#fff"
+                android:text="Details" />
+
+            <Button
+                android:id="@+id/b4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="-2dp"
+                android:background="@drawable/backgrounforcategories"
+                android:backgroundTint="#00BCD4"
+                android:fontFamily="@font/antic"
+                android:text="BOOK"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/maruti"
+            android:layout_width="379dp"
+            android:layout_height="190dp"
+            android:layout_marginTop="15sp"
+            android:background="@drawable/backgrounforcategories"
+            android:backgroundTint="#fff">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="353dp"
+                android:layout_height="190dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="1dp"
+                android:layout_marginBottom="33dp"
+                app:srcCompat="@drawable/s7" />
+
+            <TextView
+                android:id="@+id/S5"
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="209dp"
+                android:layout_marginBottom="151dp"
+                android:fontFamily="@font/roboto_bold"
+                android:text="TATA Harrier"
+                android:textColor="#000"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/d5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginBottom="0dp"
+                android:background="#fff"
+                android:text="Details" />
+
+            <Button
+                android:id="@+id/b5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="-2dp"
+                android:background="@drawable/backgrounforcategories"
+                android:backgroundTint="#00BCD4"
+                android:fontFamily="@font/antic"
+                android:text="BOOK"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/Volkswagen"
+            android:layout_width="379dp"
+            android:layout_height="190dp"
+            android:layout_marginTop="15sp"
+            android:background="@drawable/backgrounforcategories"
+            android:backgroundTint="#fff">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="358dp"
+                android:layout_height="132dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="21dp"
+                android:layout_marginBottom="26dp"
+                app:srcCompat="@drawable/volks" />
+
+            <TextView
+                android:id="@+id/S6"
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="209dp"
+                android:layout_marginBottom="151dp"
+                android:fontFamily="@font/roboto_bold"
+                android:text="Volkswagen Polo GT"
+                android:textColor="#000"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/d6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginBottom="0dp"
+                android:background="#fff"
+                android:text="Details" />
+
+            <Button
+                android:id="@+id/b6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="-2dp"
+                android:background="@drawable/backgrounforcategories"
+                android:backgroundTint="#00BCD4"
+                android:fontFamily="@font/antic"
+                android:text="BOOK"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>
