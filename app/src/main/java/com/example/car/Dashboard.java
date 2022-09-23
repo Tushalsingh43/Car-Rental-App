@@ -76,12 +76,14 @@ clickListener();
                         return true;
 
                     case R.id.nav_booking:
-
+                        Intent i= new Intent(Dashboard.this,Bookings.class);
+                        startActivity(i);
+                        finish();
                         return true;
 
                     case R.id.nav_account :
-                        Intent i= new Intent(Dashboard.this,Logout.class);
-                        startActivity(i);
+                        Intent j= new Intent(Dashboard.this,Logout.class);
+                        startActivity(j);
                         finish();
                         return true;
                 }

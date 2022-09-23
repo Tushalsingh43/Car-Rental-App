@@ -1,11 +1,10 @@
 package com.example.car;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.TextView;
-import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -13,7 +12,6 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
 import java.text.ParseException;
-import java.text.ParsePosition;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -86,12 +84,13 @@ public class BookingComplete extends AppCompatActivity {
         String ReturnDate=getIntent().getStringExtra("returnDate");
         String ReturnTime=getIntent().getStringExtra("returnTime");
         String TotalCost=c.toString();
+        String VehicleName=getIntent().getStringExtra("model");
 
         FirebaseAuth auth = FirebaseAuth.getInstance();
         FirebaseUser u=auth.getCurrentUser();
         String Uid=u.getUid();
 
-        User user = new User(Name,Email,PhoneNumber,Insurance,PickupDate,ReturnDate,PickupTime,ReturnTime,TotalCost);
+        User user = new User(Name,Email,PhoneNumber,Insurance,PickupDate,ReturnDate,PickupTime,ReturnTime,TotalCost,VehicleName);
         ref.child(Uid).push().setValue(user);
 
         e = getIntent().getStringExtra("returnDate");

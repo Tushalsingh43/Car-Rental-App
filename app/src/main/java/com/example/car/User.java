@@ -1,12 +1,12 @@
 package com.example.car;
 
 public class User {
-    String Name,Email,PhoneNumber,Insurance,PickupDate,ReturnDate,PickupTime,ReturnTime,TotalCost;
+    String Name,Email,PhoneNumber,Insurance,PickupDate,ReturnDate,PickupTime,ReturnTime,TotalCost,VehicleName;
 
     public User() {
     }
 
-    public User(String name, String email, String phoneNumber, String insurance, String pickupDate, String returnDate, String pickupTime, String returnTime, String totalCost) {
+    public User(String name, String email, String phoneNumber, String insurance, String pickupDate, String returnDate, String pickupTime, String returnTime, String totalCost, String vehicleName) {
         Name = name;
         Email = email;
         PhoneNumber = phoneNumber;
@@ -16,6 +16,15 @@ public class User {
         PickupTime = pickupTime;
         ReturnTime = returnTime;
         TotalCost = totalCost;
+        VehicleName = vehicleName;
+    }
+
+    public String getVehicleName() {
+        return VehicleName;
+    }
+
+    public void setVehicleName(String vehicleName) {
+        VehicleName = vehicleName;
     }
 
     public String getEmail() {

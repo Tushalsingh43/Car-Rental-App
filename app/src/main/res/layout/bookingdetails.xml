@@ -47,11 +47,11 @@
                         android:layout_width="80dp"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/roboto"
-                        android:text="BookingID:"
+                        android:text="Email-ID:"
                         android:textStyle="bold" />
 
                     <TextView
-                        android:id="@+id/bookingID"
+                        android:id="@+id/email"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -83,7 +83,7 @@
                         android:layout_weight="1"
                         android:fontFamily="@font/roboto"
                         android:paddingLeft="15dp"
-                        android:text="Mr. Jenil Vekaria"
+                        android:text="Mr. Tushal Singh"
                         android:textColor="@color/colorPrimary" />
                 </LinearLayout>
 
@@ -154,7 +154,7 @@
                         android:layout_weight="1"
                         android:fontFamily="@font/roboto_bold"
                         android:gravity="center_horizontal"
-                        android:text="Waiting for approval"
+                        android:text="Approved"
                         android:textColor="#FF6D00" />
                 </LinearLayout>
 
